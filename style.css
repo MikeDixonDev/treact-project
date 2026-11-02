@@ -657,7 +657,7 @@ color: rgba(0, 0, 0, 0.835);
 }
 
 #pricing .section__para {
-  min-width: 576px;
+  /* min-width: 576px; */
   text-align: center;
 }
 
@@ -1285,6 +1285,14 @@ footer {
 }
 
 @media (max-width: 1280px) {
+    .steps__grid {
+        height: 80px;
+        width: 80px;
+        bottom: -50px;
+    }
+}
+
+@media (max-width: 1280px) {
     .plan__bottom {
         padding-left: 32px;
         padding-right: 32px;
@@ -1362,6 +1370,12 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    .section__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1024px) {
     footer {
         padding: 80px 32px;
     }
@@ -1389,6 +1403,13 @@ footer {
 @media (max-width: 1024px) {
     .feature__para {
         max-width: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .values__list {
+        max-width: 320px;
+        flex-direction: column;
     }
 }
 
@@ -1472,6 +1493,7 @@ footer {
 @media (max-width: 768px) {
     .features {
         justify-content: center;
+
     }
 }
 
@@ -1534,9 +1556,65 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .step__description {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
     #steps .row, #testimonials .row
  {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    #quality .row, #values .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px) {
+    .value:nth-of-type(1)
+ {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .value {
+        margin-right: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__para {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+      #pricing .section__para {
+        text-align: center;
+       
+}
+}
+
+@media (max-width: 768px) {
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1665,15 +1743,11 @@ footer {
 @media (max-width: 640px) {
     .section__title {
         font-size: 30px;
+        line-height: 1.25;
+        text-align: center;
     }
   }
 
-@media (max-width: 640px) {
-    .section__title
- {
-        line-height: 1.25;
-    }
-}  
 
 @media (max-width: 640px) {
     .btn {
@@ -1685,8 +1759,38 @@ footer {
     #features .section__title, #pricing .section__title
  {
         font-size: 36px;
+        text-align: center;
     }
 }
+
+@media (max-width: 640px) {
+    .steps__list {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 640px) {
+    #steps .section__title {
+        margin: 16px 0 0 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ @media (max-width: 640px) {
+    .section__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .section__title {
+        line-height: 1.25;
+    }
+}
+
+
 
 @media (max-width: 640px) {
     .plan__bottom {
@@ -1705,6 +1809,8 @@ footer {
         padding: 32px 16px;
     }
 }
+
+
 
 @media (max-width: 640px) {
     .start__title {
